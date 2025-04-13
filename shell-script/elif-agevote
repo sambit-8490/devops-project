@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "enter yr age"
+
+read age
+
+if [ $age -gt 18 ]
+
+then
+   echo "you can vote"
+elif [ $age -eq 18 ]
+
+then 
+   echo "you can apply for voter id"
+else
+   echo "you can't vote"
+fi

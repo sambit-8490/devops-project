@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "enter ur age"
+
+read age
+
+if [ $age -gt 18 ];
+
+then 
+      echo "you can vote"
+else
+     echo "you can't vote"
+fi

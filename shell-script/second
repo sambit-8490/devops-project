@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+echo "enter first number"
+
+read fir
+
+echo "enter second number"
+
+read sec
+echo "total number is $((fir + sec ))"
