@@ -1,0 +1,9 @@
+docker build -t pyth .
+
+docker run -d --name redis redis:alpine
+docker run -d --name flask-app -p 5000:5000 --link redis:redis pyth
+
+curl http://localhost:5000
+or
+http://<your-ec2-public-ip>:5000
+
